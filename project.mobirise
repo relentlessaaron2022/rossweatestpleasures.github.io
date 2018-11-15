@@ -1,0 +1,646 @@
+{
+  "settings": {
+    "name": "Site-11-01_0726",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#083f19"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.6",
+    "siteFonts": [],
+    "uniqCompNum": 28,
+    "versionPublish": "4.8.6",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fad1c7",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/baker-80x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Cakes, Pies &amp; More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-6",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          }
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "postToLoad": "1",
+            "facebook": "https://www.facebook.com/Ross-Sweetest-Pleasures",
+            "twitter": "",
+            "google": "",
+            "youtube": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-2"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "22",
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1-1-820x312.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Sweetest Pleasures\n<div>By Ros\n</div>",
+          "text": "<p>Home Baked Goods&nbsp;<span style=\"font-size: 1.25rem;\">For All Occasions</span></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f4bfbb",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/43736659-2155475838107218-4276388547377758208-n-960x716.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Serving the South Jersey Area",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>THE PLACE FOR THE BEST HOMEMADE CAKES, CHEESECAKES, PIES &amp; COBBLERS!!!</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-4",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-size": "25px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": false,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/43788170-2155477898107012-7844565690911555584-n-720x540.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#083f19",
+            "overlayOpacity": 0.5
+          },
+          "header": "<b>What Our Fantastic Customers Say</b>",
+          "items": [
+            {
+              "authorName": "Desserts are always delicious! Taste and product stays consistent! Highly recommended for any occasion.",
+              "authorBio": "",
+              "text": "<br><div><i>Darrell Thompson</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            },
+            {
+              "authorName": "Everything she cooks is delicious and every one knows I’m a picky eater. I enjoy her food and desserts.<div>Delicious pastries</div>",
+              "authorBio": "",
+              "text": "<br><div><i>Monique Caldwell&nbsp;</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            },
+            {
+              "authorName": "verything she bakes is fantastic! Especially the coconut cake. 😋<div>Custom cakes · Tasty cupcakes · Unique desserts</div>",
+              "authorBio": "",
+              "text": "<br><div><i>Sissy Kabaj</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-b",
+          "testimonial": [
+            {
+              "authorName": "Desserts are always delicious! Taste and product stays consistent! Highly recommended for any occasion.",
+              "authorBio": "",
+              "text": "<br><div><i>Darrell Thompson</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            },
+            {
+              "authorName": "Everything she cooks is delicious and every one knows I’m a picky eater. I enjoy her food and desserts.<div>Delicious pastries</div>",
+              "authorBio": "",
+              "text": "<br><div><i>Monique Caldwell&nbsp;</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            },
+            {
+              "authorName": "verything she bakes is fantastic! Especially the coconut cake. 😋<div>Custom cakes · Tasty cupcakes · Unique desserts</div>",
+              "authorBio": "",
+              "text": "<br><div><i>Sissy Kabaj</i></div><div><i>Satisfied Customer&nbsp;</i></div>"
+            }
+          ],
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d8f1d5"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/1-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/1-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/2-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/3-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/4-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/4-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/5-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/5-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/7-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/7-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/8-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/8-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/6-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/6-1080x1080-800x800.png",
+                "alt": "",
+                "title": "",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-d"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#edafae",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "POUND/<br>BUNDT and LAYERED CAKES:",
+          "caption1": "COCONUT CAKE\t\t\t\t\t\t$25.00\n<br>W/PINEAPPLE FILLING &amp; <br>WHITE ICING\t\t\n<br>STRAWBERRY CAKE\t\t\t\t\t$25.00\n<br>W/STRAWBERRY FILLING &amp; ICING\t\t\t\n<br>RED VELVET CAKE\t\t\t\t\t$25.00&nbsp;<br>W/CREAM CHEESE OR BUTTERCREAM ICING\n<br>CHOCOLATE FUDGE CAKE\t\t\t\t$25.00\n<br>W/CHOCOLATE OR VANILLA ICING\n<br>DOUBLE CHOCOLATE BUNDT CAKE\t\t\t$25.00\n<br>W/CHOCOLATE MORSELS\n<br>RUM BUNDT CAKE\t\t\t\t\t$30.00\n<br>W/WALNUTS OR PECANS\n<br>PLAIN POUND CAKE OR 7UP POUND CAKE\t\t$25.00\t \n<br>CHOCOLATE PEANUT BUTTER BUNDT CAKE w GLAZE       $30.00&nbsp;<br>",
+          "title2": "CHEESECAKES:",
+          "caption2": "PLAIN CHEESECAKE\t\t\t\t$20.00\n<br>CHEESECAKE W/FRUIT TOPPING\t\t\t$25.00-$30.00\n<br>CHOCOLATE/STRAWBERRY SWIRL CHEESECAKE\t$25.00\t\n<br>APPLE STRUESEL CHEESECAKE\t\t\t$30.00\n<br>SWEET POTATO CHEESECAKE\t\t\t$30.00-$35.00\n<br>PLAIN OR W/CARMEL NUT TOP\n<br>PINEAPPLE UPSIDE DOWN CAKE CHEESECAKE\t$35.00\n<br>W/CRUSHED PINEAPPLE FILLING\t\t\n<br>RED VELVET CAKE CHEESECAKE\t\t\t$35.00\t\n<br>W/WHITE ICING &nbsp; &nbsp; &nbsp;<br>",
+          "title3": "PIES/COBBLERS/<br>PUDDING",
+          "caption3": "SWEET POTATO, COCONUT OR PECAN PIE\t$15.00\n<br>LEMON MERINGUE PIE\t\t\t\t$25.00\n<br>PUMPKIN PIE WITH STREUSEL TOPPING\t\t$20.00\n<br>CHOCOLATE PECAN PIE\t\t\t\t$25.00\n<br>PEACH COBBLER (9 X 13)\t\t\t$20.00\n<br>BANANA PUDDING w Chessman Cookies\t$25.00\n<br>SWEET POTATO SOUFFLE\t\t\t$25.00\n<br>WITH STREUSEL TOPPING (9 X 13)\t\n<br>GOOEY BUTTER CAKE                                                $20.00\n<br>PEANUT BUTTER CHOCOLATE BUTTER CAKE        $25.00&nbsp;<br>",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-c",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1-336x192.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "CALL TODAY",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Have Ros create your exclusive homebaked goods.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"tel:856-264-3885\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-336x192.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#5cb85c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Clementon, New Jersey\n08021",
+              "placeId": "ChIJVZAJNITNxokR3d8BNb9lHzc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<b>Serving</b><br><b><br></b>South Jersey<br><br>\n<strong>Contacts</strong><br>\nEmail: sweetestpleasures67@yahoo..com<br>\nPhone: +1 856-264-3885<br>",
+          "text2": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-8",
+          "_styles": {
+            "P": {
+              "font-size": "15px"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fad1c7",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/baker-80x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Cakes, Pies &amp; More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-q"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-336x192.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#5cb85c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Clementon, New Jersey\n08021",
+              "placeId": "ChIJVZAJNITNxokR3d8BNb9lHzc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<b>Serving</b><br><b><br></b>South Jersey<br><br>\n<strong>Contacts</strong><br>\nEmail: sweetestpleasures67@yahoo..com<br>\nPhone: +1 856-264-3885<br>",
+          "text2": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "contacts2-r"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Page 2",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fad1c7",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/baker-80x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Cakes, Pies &amp; More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-m"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-336x192.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#5cb85c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Clementon, New Jersey\n08021",
+              "placeId": "ChIJVZAJNITNxokR3d8BNb9lHzc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<b>Serving</b><br><b><br></b>South Jersey<br><br>\n<strong>Contacts</strong><br>\nEmail: sweetestpleasures67@yahoo..com<br>\nPhone: +1 856-264-3885<br>",
+          "text2": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "contacts2-n"
+        }
+      ]
+    }
+  }
+}
